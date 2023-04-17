@@ -1,4 +1,3 @@
-// "project" routerını buraya yazın!
 const express = require("express");
 const router = express.Router();
 const projects = require("./projects-model");

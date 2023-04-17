@@ -1,4 +1,3 @@
-// eylemlerle ilgili ara katman yazılımları yazın
 const actions = require("./actions-model");
 const projects = require("./../projects/projects-model");
 
@@ -10,7 +9,7 @@ async function validateActionId(req, res, next) {
       req.action = action;
       next();
     } else {
-      res.status(404).json({ message: "böyle bir action bulunamadı" });
+      res.status(404).json({ message: "yok ki böyle bir action" });
     }
   } catch (error) {
     res.status(500).json({ message: "hata oluştu" });

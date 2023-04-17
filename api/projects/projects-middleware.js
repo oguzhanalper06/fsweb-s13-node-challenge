@@ -1,4 +1,3 @@
-// projects ara yazılımları buraya
 const projects = require("./projects-model");
 
 async function validateProjectId(req, res, next) {
